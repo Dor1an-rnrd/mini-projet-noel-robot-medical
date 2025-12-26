@@ -1,27 +1,41 @@
 # Mini projet de Noël – Robot médical
 
-Projet d'informatique MPI.
+## Présentation
+
+Ce dépôt contient le travail réalisé dans le cadre du mini projet de Noël en MPI.  
+L’objectif est de programmer, en C et en OCaml, les fonctions et algorithmes d’un robot médical chargé de livrer des médicaments dans différents services d’un hôpital.  
+Nous cherchons à optimiser le trajet du robot afin de minimiser la distance parcourue et le temps de livraison, tout en assurant la fiabilité du système.
 
 ## Équipe
 
+Projet réalisé par :
 - Florentin DEHUT
 - Yassine ZOUBAA
 - Thaïs LAHOUSSE
 - Nahim ABDOULAYE SALIFOU
 - Dorian RENARD
 
-## Objectif
+## Cahier des charges (résumé)
 
-Programmer les fonctions et algorithmes du robot médical décrits dans le sujet.
-Le dépôt contient :
-- le code source du robot
-- la réécriture du cahier des charges
-- le compte rendu et la documentation
+- Langages utilisés : C et OCaml uniquement.
+- Durée du projet : 2 semaines.
+- Le robot doit :
+  - Représenter le plan de l’hôpital (par exemple sous forme de graphe).
+  - Calculer un trajet optimal entre plusieurs services à visiter.
+  - Gérer des livraisons successives (plusieurs services, éventuellement avec priorités).
+- Le code doit être structuré en modules/fichiers clairs et compilable dans l’environnement utilisé en MPI.
+- Des jeux de tests doivent être fournis pour vérifier le bon fonctionnement des algorithmes.
 
 ## Organisation du dépôt
 
-- `src/` : code du robot (fonctions, algorithmes, scripts de test).
+- `src/` : code source (C et OCaml).
+- `docs/` : cahier des charges détaillé, compte rendu, schémas éventuels.
+- `tests/` : données de test et scripts de vérification.
+- `README.md` : présentation du projet et de l’équipe.
 
-- `docs/` : cahier des charges réécrit, compte rendu, schémas.
+## Suivi de l’avancement
 
-- `tests/` : éventuels tests unitaires ou scripts de vérification.
+L’avancement du projet est suivi via :
+- des commits fréquents avec des messages explicites,
+- des branches dédiées pour les fonctionnalités importantes,
+- une mise à jour régulière de la documentation dans `docs/`.
