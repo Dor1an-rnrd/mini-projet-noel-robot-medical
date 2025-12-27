@@ -1,0 +1,82 @@
+1. Contexte et objectif
+
+Le projet consiste à programmer les fonctions et algorithmes d’un robot médical chargé de livrer des médicaments dans différents services d’un hôpital.
+​
+L’objectif principal est d’optimiser son trajet pour minimiser la distance parcourue et le temps de livraison, tout en garantissant la fiabilité du système.
+
+​
+2. Contraintes générales
+
+    - Durée du projet : 2 semaines continues à partir de la date de lancement donnée par l’enseignant.
+
+    - Langages autorisés : C et OCaml exclusivement, conformément au programme de MPI.
+
+    - Travail en groupe de 5 étudiants : Florentin, Yassine, Thaïs, Nahim et Dorian.
+
+    ​
+
+3. Fonctions principales du robot
+
+    - Calculer un trajet optimal entre plusieurs services de l’hôpital en minimisant une métrique (distance, temps, ou nombre d’arrêts).
+
+    - Gérer la représentation du plan de l’hôpital (graphe, matrice ou autre structure de données adaptée aux langages C / OCaml).
+
+    - Gérer les livraisons successives : prise en compte de plusieurs destinations avec éventuellement des priorités ou des contraintes horaires.
+
+4. Comportements et scénarios d’usage
+
+    - Le robot reçoit en entrée une liste de services à desservir et retourne un ordre de visite et un trajet associé.
+
+    - Le système doit être capable de recalculer un trajet si la liste de services change ou si une contrainte supplémentaire est ajoutée.
+
+    - Des scénarios de test sont fournis ou définis par le groupe (petits graphes d’hôpital, cas avec 2, 3, 5 services, etc.).
+
+5. Contraintes techniques détaillées
+
+    - Le code source est séparé en modules/fichiers clairs (gestion des données, algorithme de trajet, interface I/O).
+
+    - Les structures de données doivent être adaptées aux langages utilisés (par exemple : listes chaînées, tableaux dynamiques en C ; types algébriques, listes et arbres en OCaml).
+
+    - Le projet doit être compilable sur l’environnement standard de la prépa (compilateur C utilisé en cours et compilateur OCaml).
+
+    - Tous les algorithmes doivent être implémentés par le groupe, sans utilisation de bibliothèques externes non autorisées.
+
+6. Validation et tests
+
+    - Fournir un ensemble de jeux de tests illustrant différents cas : cas simple, cas moyen, cas limite (nombre maximal de services, topologie compliquée).
+
+    - Chaque test doit préciser les données d’entrée, le résultat attendu (ordre des services, coût du trajet) et le résultat obtenu.
+
+    - Le programme doit être suffisamment robuste pour ne pas se terminer brutalement sur des entrées incorrectes simples (vérifications minimales).
+
+7. Organisation du travail et livrables
+
+    - Rédiger ce cahier des charges en début de projet et le tenir à jour si nécessaire.
+
+​
+
+    - Produire un compte‑rendu final décrivant :
+
+        le modèle choisi (représentation de l’hôpital)
+
+        les algorithmes utilisés et leur complexité
+
+        les choix d’implémentation en C / OCaml
+
+        une synthèse des résultats de tests.
+
+    ​
+
+    - Déposer l’ensemble (code source, cahier des charges, compte‑rendu) sur le dépôt GitHub prévu et suivre les recommandations de l’enseignant pour le rendu.
+
+    ​
+
+8. Critères d’évaluation
+
+    - Respect du cahier des charges et des délais de 2 semaines.
+
+    - Qualité algorithmique (choix pertinents, justification) et qualité de l’implémentation C/OCaml (lisibilité, modularité, commentaires).
+
+    - Qualité de la documentation : clarté du cahier des charges, du compte‑rendu et des tests réalisés.
+
+​
