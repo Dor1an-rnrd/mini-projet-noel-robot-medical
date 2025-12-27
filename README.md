@@ -9,10 +9,10 @@ Nous cherchons à optimiser le trajet du robot afin de minimiser la distance par
 ## Équipe
 
 Projet réalisé par :
-- Florentin DEHUT
-- Yassine ZOUBAA
-- Thaïs LAHOUSSE
-- Nahim ABDOULAYE SALIFOU
+- Mathis MARQUES
+- Hoani FOULON
+- Loique NANA DJEUGA
+- Lucas PIQUEREAU
 - Dorian RENARD
 
 ## Cahier des charges (résumé)
