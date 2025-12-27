@@ -10,7 +10,7 @@ Nous cherchons à optimiser le trajet du robot afin de minimiser la distance par
 
 Projet réalisé par :
 - Mathis MARQUES
-- Yassine ZOUBAA
+- Hoani FOULON
 - Loique NANA DJEUGA
 - Lucas PIQUEREAU
 - Dorian RENARD
