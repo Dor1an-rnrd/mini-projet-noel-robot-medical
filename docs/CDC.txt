@@ -11,7 +11,7 @@ L’objectif principal est d’optimiser son trajet pour minimiser la distance p
 
     - Langages autorisés : C et OCaml exclusivement, conformément au programme de MPI.
 
-    - Travail en groupe de 5 étudiants : Florentin, Yassine, Thaïs, Nahim et Dorian.
+    - Travail en groupe de 5 étudiants : Mathis, Hoani, Loique, Lucas et Dorian.
 
     ​
 
